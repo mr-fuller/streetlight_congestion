@@ -1,9 +1,9 @@
-create table secor_2016_01_seg_all (
+create table if not exists luc_woo_123456_seg_all (
     vehicle_type varchar,
     zone_id varchar,
     zone_name varchar,
     zone_is_pass_through varchar,
-    zone_is bidirectional varchar,
+    zone_is_bidirectional varchar,
     day_type varchar,
     day_part varchar,
     seg_traffic_stl_index numeric,
